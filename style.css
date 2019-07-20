@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas neue";
+}
+
+nav{
+  display: flex;
+  height: 50px;
+  background-color: #2e2e2e;
+  color: white;
+  font-family: "Bebas neue";
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.nav-menu span{
+  margin: 0 50px;
+}
+
+.hero-container{
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.hero-container img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.hero-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 8px #333333;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.our-goods{
+  display: flex;
+  background-color: #e5e5e5;
+  padding: 50px 0;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.our-goods-card{
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid #dcdcdc;
+}
+
+.our-goods-card img{
+  width: 100%;
+}
+
+.our-products,
+.our-story{
+  text-align: center;
+}
+
+.items-list{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.items-list p{
+  color: #00ca09;
+}
+
+.item{
+  text-align: center;
+}
+
+.main-image-bottom {
+  grid-area: main-image-bottom;
+  display: flex;
+  height: 100%;
+}
+
+.first-image-bottom{
+  grid-area: first-image-bottom;
+}
+
+.second-image-bottom{
+  grid-area: second-image-bottom;
+}
+
+.third-image-bottom{
+  grid-area: third-image-bottom;
+}
+
+.fourth-image-bottom{
+  grid-area: fourth-image-bottom;
+}
+
+.our-team{
+  font-family: Lato;
+  display: grid;
+  grid-template-areas: 'main-image-bottom first-image-bottom second-image-bottom'
+                       'main-image-bottom third-image-bottom fourth-image-bottom'
+}
+
+.member img{
+  height: 200px;
+  border-radius: 200px;
+}
+
+.member{
+  text-align: center;
+  background-color: #efefef;
+  padding: 10px;
+  color: #272727;
+}
+
+.our-team-label{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 400px;
+  padding: 10px;
+  background-color: #191919;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.our-sources{
+  font-family: Lato;
+  display: grid;
+  grid-template-areas: 'first-image-bottom main-image-bottom second-image-bottom'
+                       'third-image-bottom main-image-bottom fourth-image-bottom'
+}
